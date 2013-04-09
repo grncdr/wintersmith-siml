@@ -1,0 +1,40 @@
+{
+  "name": "wintersmith-siml",
+  "description": "Wintersmith template plugin for SIML.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wooorm/wintersmith-siml",
+  "author": {
+    "name": "wooorm",
+    "email": "tituswormer@gmail.com",
+    "url": "https://github.com/wooorm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wooorm/wintersmith-siml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wooorm/wintersmith-siml/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wooorm/wintersmith-siml/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "siml": "~0.3.0",
+    "coffee-script": "~1.6.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "wintersmith",
+    "template",
+    "plugin",
+    "siml"
+  ]
+}
