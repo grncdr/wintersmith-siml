@@ -24,6 +24,6 @@ If you've installed Wintersmith-SIML globally (through `npm install -g wintersmi
 "plugins" : [ "wintersmith-siml" ]
 ```
 
-Next, when you run `wintersmith build`, or `wintersmith preview`, files with `siml` as there extension will be rendered to HTML.
+Next, when you run `wintersmith build`, or `wintersmith preview`, files with `siml` as their extension will be rendered to HTML.
 
 Alternativly, you could run `wintersmith build --plugins wintersmith-siml`
