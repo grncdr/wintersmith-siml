@@ -19,7 +19,9 @@
   "engines": {
     "node": ">=0.8.0"
   },
-  "scripts": {},
+  "scripts": {
+    "prepublish": "coffee -bc index.coffee"
+  },
   "licenses": [
     {
       "type": "MIT",
@@ -27,12 +29,14 @@
     }
   ],
   "dependencies": {
-    "siml": "~0.3.0",
+    "siml": "~0.3.0"
+  },
+  "devDependencies": {
     "coffee-script": "~1.6.2"
   },
-  "devDependencies": {},
   "keywords": [
     "wintersmith",
+    "wintersmith-plugin",
     "template",
     "plugin",
     "siml"
